@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock title %}
+
+{% block content %}
+  <h1>My first Django Web page</h1>
+  <p>This is the home page.</p>
+
+  <p>Check out the <a href="{% url 'about' %}">about page</a> to see my info.</p>
+{% endblock content %}
